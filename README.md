@@ -39,7 +39,7 @@ pipeline_lr = Pipeline([
     ('classifier', classifier1)
 ```
 ### Results/Findings
-Using the pipeline I developed, predictions on the unseen dataset  revealed that 98.82% of the distribution were predicted as -1, indicating the absence of Linear B-cell epitopes. In contrast, only 1.18% were predicted as 1, indicating the presence of Linear B-cell epitopes. This result highlights how rLinear B-cell epitopes are relatively rare in this dataset.
+Using the pipeline  developed, predictions on the unseen dataset  revealed that 98.82% of the distribution were predicted as -1, indicating the absence of Linear B-cell epitopes. In contrast, only 1.18% were predicted as 1, indicating the presence of Linear B-cell epitopes. This result highlights how rLinear B-cell epitopes are relatively rare in this dataset.
 
 
 ### Limitations
